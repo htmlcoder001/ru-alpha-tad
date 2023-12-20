@@ -1,0 +1,86 @@
+/*! Theme styles. (theme.css) */
+:root {
+  
+  --website-width: 480px;
+  --padding-h: 24px; /* horizontal padding */
+  --padding-v: 24px; /* vertical padding */
+}
+
+body {
+  background-color: #cccccc;
+  position: relative;
+  overflow-x: hidden;
+}
+
+main {
+  background-color: #292424;
+  max-width: var(--website-width);
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.theme-wrapper {
+  padding: var(--padding-v) var(--padding-h);
+  display: grid;
+  align-items: start;
+  justify-content: center;
+  grid-template-columns: 1fr;
+  width: 100%;
+  position: relative;
+  max-width: var(--website-width);
+  margin: 0 auto;
+}
+
+
+.theme-button {
+  width: 342px;
+  height: 78px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #59AA19;
+  background: radial-gradient(67.95% 67.95% at 50% 32.05%, #97DE5F 0%, #59AA19 100%);
+  box-shadow: 0px 4px 10px 0px #59AA19;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -ms-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+  position: relative;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  border-radius: 50px;
+}
+.theme-button__text {
+  white-space: nowrap;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.theme-button:hover {
+  -webkit-transform: translateY(-4px);
+  -moz-transform: translateY(-4px);
+  -ms-transform: translateY(-4px);
+  -o-transform: translateY(-4px);
+  transform: translateY(-4px);
+  box-shadow: 0px 6px 10px 0px #59AA19;
+}
+
+.theme-wrapper__heading {
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #000000;
+  display: block;
+}

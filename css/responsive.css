@@ -1,0 +1,139 @@
+/*! Responsive styles. (responsive.css) | @author webtitov.ru */
+
+@media (max-width: 479px) {
+  .theme-wrapper {
+    overflow-x: hidden;
+  }
+  .cta-wrapper__head {
+    justify-content: center;
+  }
+  .theme-button__text {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 425px) {
+  .intro-content__discount {
+    right: 0;
+  }
+}
+
+@media (max-width: 374px) {
+  .intro-content__discount {
+    right: -20px
+  }
+  .benefits-item__title {
+    font-size: 14px;
+    line-height: 18px;
+    margin: 12px auto 0 auto;
+    display: block;
+  }
+  .theme-button {
+    max-width: 300px;
+  }
+  .theme-button__text {
+    font-size: 18px;
+  }
+  .form-progress__item, .cta-progress__item {
+    width: 36px
+  }
+  .form-amount__progress, .cta-amount__progress {
+    gap: 8px
+  }
+  .form-wrapper__date, .cta-wrapper__date,
+  .features-item__text,
+  .about-wrapper__text,
+  .cases-item__title {
+    font-size: 16px;
+  }
+  .features-grid__item,
+  .cases-grid__item {
+    grid-template-columns: 1fr;
+  }
+  .features-item__text,
+  .features-item__image,
+  .cases-item__image,
+  .cases-item__title {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .about-wrapper__image {
+    margin-bottom: 32px;
+    height: 350px;
+    max-width: 100%;
+  }
+  .theme-wrapper__heading {
+    font-size: 28px;
+  }
+  .cta-wrapper__head {
+    flex-direction: column-reverse;
+    gap: 12px;
+  }
+  .cta-content__title > br,
+  .cta-content__subtitle > br {
+    display: none;
+  }
+  .cta-content__title {
+    font-size: 26px;
+  }
+  .cta-content__subtitle {
+    font-size: 14px;
+  }
+  .cases-image__img,
+  .cases-item__image:after {
+    width: 165px;
+    height: 165px;
+  }
+  .cases-grid__item {
+    gap: 16px;
+  }
+  .cases-item__image {
+    grid-row: 1;
+  }
+  .colors-wrapper__grid {
+    gap: 24px;
+  }
+  .colors-item__title,
+  .steps-item__text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .steps-grid__item {
+    gap: 16px;
+  }
+  .reviews-item__photo {
+    height: 300px;
+  }
+  .reviews-head__avatar {
+    width: 32px;
+    height: 32px;
+  }
+  .reviews-head__name {
+  
+  }
+  .reviews-item__text {
+    font-size: 14px;
+  }
+  .reviews-rating__text {
+    font-size: 14px;
+  }
+  .reviews-head__name {
+    font-size: 16px;
+  }
+  .reviews-wrapper__carousel {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .form-box__input {
+    padding: 16px 12px;
+    font-size: 16px;
+    height: 65px;
+    max-width: 100%;
+  }
+  .timer-text__item {
+    font-size: 12px;
+  }
+  .form-amount__text, .cta-amount__text {
+    font-size: 16px;
+  }
+}
